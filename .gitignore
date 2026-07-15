@@ -1,0 +1,37 @@
+# Maven
+target/
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Game
+.minecraft/
+skins/
+mods/
+logs/
+
+# Build
+build/
+dist/
+*.exe
+
+# Environment
+.env
+*.properties
+
+# Logs
+*.log
