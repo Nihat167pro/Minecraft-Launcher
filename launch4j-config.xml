@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Launch4j Configuration - Windows EXE Builder -->
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>target/reals-launcher-1.0.jar</jar>
+  <outfile>REALS-Launcher.exe</outfile>
+  <errTitle>REALS Launcher Error</errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>https://www.oracle.com/java/technologies/downloads/</downloadUrl>
+  <supportUrl>https://github.com/Nihat167pro/minecraft-launcher</supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <useProtocolHandler>false</useProtocolHandler>
+  <manifest></manifest>
+  <icon>src/main/resources/assets/icon.ico</icon>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJre32Bit>false</bundledJre32Bit>
+    <minVersion>11</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJdk</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+  <splash>
+    <file>src/main/resources/assets/splash.png</file>
+    <waitForWindow>false</waitForWindow>
+    <timeout>0</timeout>
+    <timeoutErr>false</timeoutErr>
+  </splash>
+  <versionInfo>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>1.0.0</txtFileVersion>
+    <fileDescription>REALS Minecraft Launcher</fileDescription>
+    <copyright>Copyright (c) 2026 Nihat167pro</copyright>
+    <productVersion>1.0.0.0</productVersion>
+    <txtProductVersion>1.0.0</txtProductVersion>
+    <productName>REALS Minecraft Launcher</productName>
+    <companyName>Nihat167pro</companyName>
+    <internalName>reals-launcher</internalName>
+    <originalFilename>REALS-Launcher.exe</originalFilename>
+    <trademarks></trademarks>
+  </versionInfo>
+</launch4jConfig>
