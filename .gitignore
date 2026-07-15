@@ -1,3 +1,11 @@
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
 # Maven
 target/
 *.jar
@@ -5,33 +13,44 @@ target/
 *.ear
 *.zip
 *.tar.gz
-*.rar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.orig
+release.properties
 
-# IDE
-.idea/
-.vscode/
-*.iml
-*.iws
-*.ipr
-*.swp
-*.swo
-*~
-.DS_Store
-
-# Game
-.minecraft/
-skins/
-mods/
-logs/
-
-# Build
+# Gradle
+.gradle/
 build/
-dist/
-*.exe
 
-# Environment
-.env
-*.properties
-
-# Logs
+# Java
+*.class
 *.log
+.classpath
+.project
+.settings/
+
+# Launcher Config
+.reals-launcher/
+!.reals-launcher/config.json.example
+
+# Game Files
+.minecraft/
+versions/
+libraries/
+assets/
+
+# Mods
+mods/
+modsettings.json
+
+# System
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Temp
+tmp/
+temp/
+*.tmp
